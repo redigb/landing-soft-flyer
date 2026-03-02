@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import logoImg from '../assets/images/SUNATALIANSA.png';
 
 const Header: React.FC = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Efecto para cambiar el estilo al hacer scroll
